@@ -18,6 +18,6 @@ set -ouex pipefail
 # Disable COPRs so they don't end up enabled on the final image:
 # dnf5 -y copr disable ublue-os/staging
 
-dnf5 -y copr enable principis/howdy
+dnf5 -y copr enable principis/howdy-beta
 dnf5 -y in howdy
-dnf5 -y copr disable principis/howdy
+dnf5 -y copr disable principis/howdy-beta
