@@ -3,8 +3,8 @@ FROM scratch AS ctx
 COPY build_files /
 
 # Base Image
-FROM ghcr.io/ublue-os/bluefin:stable
-# COPY system_files /
+FROM ghcr.io/ublue-os/silverblue-main:latest
+COPY system_files /
 
 # RUN rm /opt && mkdir /opt
 
