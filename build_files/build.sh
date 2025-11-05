@@ -25,4 +25,4 @@ dnf5 -y copr disable starfish/howdy-beta
 # waydroid setup
 dnf5 -y in waydroid cage
 sed -i~ -E 's/=.\$\(command -v (nft|ip6?tables-legacy).*/=/g' /usr/lib/waydroid/data/scripts/waydroid-net.sh
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/bazzite-org/waydroid-scripts/refs/heads/main/way-firewalld.sh)"
+# bash -c "$(curl -fsSL https://raw.githubusercontent.com/bazzite-org/waydroid-scripts/refs/heads/main/way-firewalld.sh)"
